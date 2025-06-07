@@ -1,1 +1,23 @@
+Points to ponder: 
+
+1) neo4j stores data in graph as nodes and relationships. 
+2) Graph databases are particularly useful when the connections between data are as important as the data itself.
+3) Data is stored and organized as Nodes, Relationships, Labels, Properties in neo4j. 
+4) Nodes(vertices) are entities/objects in graph. 
+5) Labels are used to categorize or group the nodes allowing to distinguish different nodes and filter the graph. 
+6) Relationship(edges) describe how nodes are connected within graph. A relationship have a type and a direction. 
+7) Properties are key value pairs store data against nodes and relationships. 
+8) neo4j is schemaless. 
+9) About Nodes : 
+                 Nodes of the same type would have the same label.
+                 Nodes can have multiple labels. 
+                 Nodes can have multiple relationships to other nodes.
+                 Nodes and relationships can have any number of properties)
+10) Relationships in a graph are treated with the same importance as nodes that connect them. ( Key Charaacteristic of Graph Database.) 
+11) Graph database solves O(n) problem. (Query time remains constant to the size of the relationships expanded regardless of the overall size of the data). 
+                 O(n) problem  :  In relational databases, due to more data the database indexes grow larger which increases the response time. 
+12) Graph databases enable efficient modeling and querying of complex relationships.(the database stores a pointer to the relationship with each node. When reading data, the database will follow pointers in memory rather than relying on an underlying index.) 
+13) Graph databases have their own query language GQL( Graph Query Language).
+14) Cypher is Neo4j’s implementation of GQL. (Cypher is a declarative language). 
+
 
